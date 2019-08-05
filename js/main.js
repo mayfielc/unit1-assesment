@@ -12,7 +12,7 @@ plusButton.addEventListener('click', add);
 
 // funcitons
 
-function.initialize() {
+function initialize() {
     count.initialize='0';
     input.value='1';
     sum = 0;
@@ -20,7 +20,7 @@ function.initialize() {
 
 function render() {
     count.textContent= sum;
-    count.getElementsByClassName.color = sum < 0? 'red : 'black;
+    count.getElementsByClassName.color = sum < 0? 'red' : 'black'; 
 
 }
 
